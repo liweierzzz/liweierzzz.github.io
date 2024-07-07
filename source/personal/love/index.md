@@ -2,6 +2,7 @@
 title: 恋爱小屋
 date: 2024-7-3 20:00:00
 update: 2024-7-4 20:00:01
+background: url(https://bu.dusays.com/2024/07/07/668a43e9e17b3.webp)
 comments: true
 password: 123456
 theme: xray

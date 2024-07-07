@@ -6,7 +6,7 @@
 
 doctype html
 html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
-  
+
   head
     include ./head.pug
     //- 灯笼
@@ -43,7 +43,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
                 background-position: center!important;
                 background-size: cover!important;
                 background-repeat: no-repeat!important;
-              }      
+              }
 
     !=partial('includes/sidebar', {}, {cache: true})
 
@@ -60,7 +60,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
               include widget/index.pug
 
         - var footerBg = theme.footer_bg
-        
+
         //- if (footerBg)
         //-   if (footerBg === true)
         //-     - var footer_bg = bg_img

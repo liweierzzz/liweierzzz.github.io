@@ -2,6 +2,7 @@
 title: 唠叨
 date: 2024-07-04 23:08:13
 comments: false
+background: url(https://bu.dusays.com/2024/07/07/668a43ea0e227.webp)
 ---
 
 <style>

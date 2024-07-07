@@ -52,7 +52,7 @@ copy:
 #   icon: link || the description
 social:
   Github: https://github.com/liweierzzz || icon-github || faa-tada
-  微信: /assets/QRCode.jpg || icon-weixin || faa-tada
+  微信: /assets/myWxcode.jpg || icon-weixin || faa-tada
   QQ: https://res.abeim.cn/api/qq/?qq=420057557 || icon-QQ || faa-tada
   B站: https://space.bilibili.com/105094115 || icon-bilibili || faa-tada
   QQ邮箱: mailto:420057557@qq.com || icon-youxiang || faa-tada
@@ -130,12 +130,12 @@ archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: false
+tag_img: https://bu.dusays.com/2024/07/07/668a3f1933113.webp
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: 
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
@@ -156,21 +156,64 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://bu.dusays.com/2024/07/05/66875802e54ee.jpg
-    - https://bu.dusays.com/2024/07/05/668758032e5cc.jpg
-    - https://bu.dusays.com/2024/07/05/6687580337616.jpg
-    - https://bu.dusays.com/2024/07/05/668758030ca43.jpg
-    - https://bu.dusays.com/2024/07/05/66875802e30d1.jpg
-    - https://bu.dusays.com/2024/07/05/6687547eae085.jpg
-    - https://bu.dusays.com/2024/07/05/66875802eedd0.jpg
-    - https://bu.dusays.com/2024/07/04/6686ad1e4cf2a.jpg
-    - https://bu.dusays.com/2024/07/04/6686acb45eec3.png
-    - https://bu.dusays.com/2024/07/04/6686acb45eec3.png
-    - https://bu.dusays.com/2024/07/05/66878387790b8.jpg
-    - https://bu.dusays.com/2024/07/05/66878387569ce.jpg
-    - https://bu.dusays.com/2024/07/05/668783862c67f.jpg
-    - https://bu.dusays.com/2024/07/05/668783862a0d3.jpg
-    - https://bu.dusays.com/2024/07/05/66878384d5b24.jpg
+  - https://bu.dusays.com/2024/07/05/66878387569ce.jpg
+  - https://bu.dusays.com/2024/07/07/668a43eb3c6d9.webp
+  - https://bu.dusays.com/2024/07/07/668a43eb32d6a.webp
+  - https://bu.dusays.com/2024/07/07/668a43eadcc13.webp
+  - https://bu.dusays.com/2024/07/07/668a43ea16d19.webp
+  - https://bu.dusays.com/2024/07/07/668a43ea0e227.webp
+  - https://bu.dusays.com/2024/07/07/668a43ea15652.webp
+  - https://bu.dusays.com/2024/07/07/668a43e9e17b3.webp
+  - https://bu.dusays.com/2024/07/07/668a43e9f2af2.webp
+  - https://bu.dusays.com/2024/07/07/668a43e9ec566.webp
+  - https://bu.dusays.com/2024/07/07/668a43e9ebed8.webp
+  - https://bu.dusays.com/2024/07/07/668a43e9c511b.webp
+  - https://bu.dusays.com/2024/07/07/668a43ea00f0d.webp
+  - https://bu.dusays.com/2024/07/07/668a43e9b48de.webp
+  - https://bu.dusays.com/2024/07/07/668a4092a56fc.webp
+  - https://bu.dusays.com/2024/07/07/668a3f196c465.webp
+  - https://bu.dusays.com/2024/07/07/668a3f193909d.webp
+  - https://bu.dusays.com/2024/07/07/668a3f1933113.webp
+  - https://bu.dusays.com/2024/07/07/668a3f16c9841.webp
+  - https://bu.dusays.com/2024/07/05/66879914d8252.jpg
+  - https://bu.dusays.com/2024/07/05/66879914cb326.jpg
+  - https://bu.dusays.com/2024/07/05/668799146a8f5.jpg
+  - https://bu.dusays.com/2024/07/05/66878387790b8.jpg
+  - https://bu.dusays.com/2024/07/05/668796e6f1636.jpg
+  - https://bu.dusays.com/2024/07/05/6687991410704.jpg
+  - https://bu.dusays.com/2024/07/05/668799141aa38.jpg
+  - https://bu.dusays.com/2024/07/05/668783862a0d3.jpg
+  - https://bu.dusays.com/2024/07/05/668783862c67f.jpg
+  - https://bu.dusays.com/2024/07/05/66878384d5b24.jpg
+  - https://bu.dusays.com/2024/07/05/66876c6974956.jpg
+  - https://bu.dusays.com/2024/07/05/66876b97979d1.webp
+  - https://bu.dusays.com/2024/07/05/6687580337616.jpg
+  - https://bu.dusays.com/2024/07/05/668758032e5cc.jpg
+  - https://bu.dusays.com/2024/07/05/66875802e54ee.jpg
+  - https://bu.dusays.com/2024/07/05/668758030ca43.jpg
+  - https://bu.dusays.com/2024/07/05/66875802e30d1.jpg
+  - https://bu.dusays.com/2024/07/05/66875802eedd0.jpg
+  - https://bu.dusays.com/2024/07/05/6687547eae085.jpg
+  - https://bu.dusays.com/2024/07/04/6686aced6a1a7.png
+  - https://bu.dusays.com/2024/07/04/6686ad1e4cf2a.jpg
+  - https://bu.dusays.com/2024/07/04/6686b5edb6d9e.png
+  - https://bu.dusays.com/2024/07/04/6686acb45eec3.png
+  - https://bu.dusays.com/2024/07/04/6686ac25f2899.jpg
+  - https://bu.dusays.com/2024/07/04/6686a3cbc1499.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc05991e.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc0bfb41.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc0d3bba.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc118c06.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc1330ee.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc14cd72.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc164031.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc15db61.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc15dc58.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc1900f6.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc1900f6.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc238d4e.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc246db5.jpg
+  - https://bu.dusays.com/2024/07/07/668a4bc28b93c.jpg
     # ...
 
 # A simple 404 page
@@ -393,7 +436,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 
+  envId:
   region:
   visitor: false
   option:
@@ -470,7 +513,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 
+baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -556,13 +599,13 @@ tag_ui: # 留空或 index
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # "#e4f4f6" "#efefef"
 background:
-  #【必选】默认背景 
+  #【必选】默认背景
   default: url(https://bu.dusays.com/2024/07/05/66876b97979d1.webp)
-  #【可选】PC端夜间模式背景 
+  #【可选】PC端夜间模式背景
   darkmode: url(https://bu.dusays.com/2024/07/05/66876c6974956.jpg)
-  #【可选】移动端日间默认背景 
+  #【可选】移动端日间默认背景
   mobileday: var(--mobileday-bg)
-  #【可选】移动端夜间模式背景 
+  #【可选】移动端夜间模式背景
   mobilenight: var(--mobilenight-bg)
 
 # Footer Background
@@ -719,9 +762,9 @@ aside:
       link: https://github.com/liweierzzz
   card_announcement:
     enable: true
-    content: 欢迎来到我的小屋,请大家注意遵守网络规范哦！！！ 
+    content: 欢迎来到我的小屋,请大家注意遵守网络规范哦！！！
   card_recent_post:
-    enable: false
+    enable: true
     limit: 3 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
@@ -736,7 +779,7 @@ aside:
     color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
-    enable: false
+    enable: true
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -947,6 +990,8 @@ inject:
     - <script defer src="/js/fomal.js"></script> # 主模块js
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async data-pjax src="/js/txmap.js"></script> # 腾讯位置API
+    - <div class="aplayer no-destroy" data-id="426890333" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work

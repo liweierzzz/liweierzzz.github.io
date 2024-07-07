@@ -1,6 +1,7 @@
 ---
 title: 关于
 date: 2024-07-3 16:05:11
+background: url(https://bu.dusays.com/2024/07/07/668a43ea16d19.webp)
 ---
 
 {% note warning modern %}<b>非商免字体、网图</b>等资源未经授权仅限个人使用，不得用于商业用途。本站平时仅用于交流和学习，如涉及侵权请联系站长删除对应资源，谢谢！ —— 致版权方{% endnote %}

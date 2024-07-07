@@ -1147,7 +1147,7 @@ button#go-up:hover #percent {
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
-/* #aside-content > .card-widget.card-info {
+ #aside-content > .card-widget.card-info {
   background: linear-gradient(
     -45deg,
     #e8d8b9,
@@ -1195,21 +1195,21 @@ button#go-up:hover #percent {
   100% {
     background-position: 0% 50%;
   }
-} */
+}
 
-/* 个人信息卡片背景图 */
-[data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 100%;
-}
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 100%;
-}
+/*!* 个人信息卡片背景图 *!*/
+/*[data-theme="light"] #aside-content > .card-widget.card-info {*/
+/*  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);*/
+/*  background-repeat: no-repeat;*/
+/*  background-attachment: inherit;*/
+/*  background-size: 100%;*/
+/*}*/
+/*[data-theme="dark"] #aside-content > .card-widget.card-info {*/
+/*  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);*/
+/*  background-repeat: no-repeat;*/
+/*  background-attachment: inherit;*/
+/*  background-size: 100%;*/
+/*}*/
 /* 头像呼吸灯 */
 [data-theme="light"] .avatar-img {
   animation: huxi_light 4s ease-in-out infinite;
@@ -1271,7 +1271,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(https://bu.dusays.com/2024/07/04/6686a3cbc1499.jpg)
     no-repeat center center;
   background-size: cover;
 }
@@ -2766,10 +2766,10 @@ figure.highlight pre .deletion {
 }
 
 /* 信息卡片彩带 */
-/* .author_top:hover {
+ .author_top:hover {
   background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
   background-size: cover;
-} */
+}
 
 /* 霓虹灯css实现 light_15px 10s linear infinite */
 [data-theme="light"] #site-name,
