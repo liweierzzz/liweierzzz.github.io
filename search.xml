@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>hexo常用的指令</title>
+      <link href="/posts/2013454d.html"/>
+      <url>/posts/2013454d.html</url>
+      
+        <content type="html"><![CDATA[<h1>hexo常用命令</h1><p>我一般来说就经常用的就是</p><ul><li>hexo clean &amp;&amp; hexo generate &amp;&amp; hexo s</li><li>hexo d 部署上线</li></ul><h2 id="1-文章的书写">1. 文章的书写</h2><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;<span class="built_in">title</span>&gt;</span><br></pre></td></tr></table></figure><p>eg: <code>hexo new &quot;post title with whitespace&quot;</code> 其中 layout为_config.yml中的默认参数值。</p><ul><li><code>-p --path</code> 自定义新文章</li><li><code>-r --replace</code> 存在同名文章，替换</li><li><code>-s --slug</code> 文章的slug，作为新文章的文件名和发布后的URL</li></ul><h2 id="2-生成静态文件">2. 生成静态文件</h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span>` 或 `hexo g</span><br></pre></td></tr></table></figure><ul><li><code>-d 或--deploy</code> 文件生成后部署网站</li><li><code>-w 或--watch</code> 监视文件变动</li><li><code>-b 或--bail</code> 生成过程中出现异常则抛出。</li><li><code>-f 或--force</code> 强制重新生成文件</li><li><code>-c 或--concurrency</code> 最大同时生成文件数量，默认无限制。</li></ul><h2 id="3-发布草稿">3. 发布草稿</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish [layout] <span class="tag">&lt;<span class="name">filename</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="4-启动服务器">4.启动服务器</h2><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server<span class="string">` 启动服务器，ctrl+c 结束，默认地址为：`</span>http:<span class="comment">//localhost:4000/</span></span><br></pre></td></tr></table></figure><h2 id="5-部署网站">5.部署网站</h2><figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy` 或`hexo d</span><br></pre></td></tr></table></figure><ul><li><code>-g 或--generate</code> 部署之前写成静态文件</li></ul><h2 id="6-渲染文件">6.渲染文件</h2><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo</span> render &lt;file1&gt;<span class="meta"> [file2]</span></span><br></pre></td></tr></table></figure><ul><li><code>-o或--output</code> 设置输出路径</li></ul><h2 id="7-清除缓存文件">7. 清除缓存文件</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure><h2 id="8-列出网站资料">8. 列出网站资料</h2><figure class="highlight elm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> list &lt;<span class="keyword">type</span>&gt;</span><br></pre></td></tr></table></figure><h2 id="9-显示草稿">9. 显示草稿</h2><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="comment">--deaft</span></span><br></pre></td></tr></table></figure><h2 id="10-自定义当前工作目录">10. 自定义当前工作目录</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="attr">--cwd</span> /path/<span class="selector-tag">to</span>/cwd</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 经验分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
