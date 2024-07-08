@@ -135,7 +135,7 @@ tag_img: https://bu.dusays.com/2024/07/07/668a3f1933113.webp
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: 
+tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
@@ -972,6 +972,7 @@ inject:
     - <span id="fps"></span> # 帧率检测
     - <style id="defineBg"></style> # 自定义背景选项
     - <style id="menu_shadow"></style> # 菜单发光样式
+    - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script> #文章统计
 
   bottom:
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
@@ -991,6 +992,7 @@ inject:
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async data-pjax src="/js/txmap.js"></script> # 腾讯位置API
     - <div class="aplayer no-destroy" data-id="426890333" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+
 
 
 # CDN
@@ -1145,7 +1147,7 @@ envelope_comment:
     - 或者你有什么改进的建议？
     - 又或者你有什么具体的问题需要咨询？
     - 都可以在下方评论区留言哦~~~
-  bottom: F小站站长亲自为您服务！ #仅支持单行文本
+  bottom: miku小站站长亲自为您服务！ #仅支持单行文本
   height: #1050px，信封划出的高度
   path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
   front_matter: #【可选】comments页面的 front_matter 配置

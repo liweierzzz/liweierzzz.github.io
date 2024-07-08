@@ -285,6 +285,9 @@ magnet:
     - name: 演示
       display_name: mikuの案例演示笔记
       icon: 🍥
+    - name: 编程经验
+      display_name: mikuの案例编程经验分享
+      icon: 🎃
   color_setting:
     text_color: black # 文字默认颜色
     text_hover_color: white # 文字鼠标悬浮颜色

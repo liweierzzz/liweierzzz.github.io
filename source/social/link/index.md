@@ -1,6 +1,6 @@
 ---
 title: 友人帐
-date: 2022-08-10 15:39:15
+date: 2024-07-04 15:39:15
 type: "link"
 background: url(https://bu.dusays.com/2024/07/07/668a43e9ebed8.webp)
 ---

@@ -1,7 +1,7 @@
 ---
 title: 朋友圈
 date: 2024-07-05 18:00:00
-background: url(https://bu.dusays.com/2024/07/05/6687991410704.jpg)
+background: url(https://bu.dusays.com/2024/07/07/668a4bc28b93c.jpg)
 comments: true
 ---
 
