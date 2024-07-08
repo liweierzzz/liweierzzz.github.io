@@ -9550,6 +9550,223 @@ hr:before {
   transition: all 0.3s ease-in-out;
 }
 
+
+/* b站追番页面*/
+
+:root {
+  --km-card-bg: rgba(102,204,255,0.204);
+  --km-link-bg: #0084ff;
+  --km-button-light-active: #6cf;
+  --km-general-shadow: #546e7a;
+  --km-globle-font: #000;
+}
+[data-theme="dark"] {
+  --km-card-bg: rgba(102,204,255,0.063);
+  --km-link-bg: #0056ac;
+  --km-button-light-active: rgba(76,76,76,0.737);
+  --km-globle-font: #fff;
+}
+#bangumis .bangumi-tabs {
+  display: block;
+  border-radius: 15px;
+  border: 2px solid var(--km-card-bg);
+  text-align: center;
+}
+#bangumis .bangumi-tabs > p {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#bangumis .bangumi-tabs button {
+  display: inline-block;
+  color: var(--font-color);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#bangumis .bangumi-tabs button:not(.active):not(.disable):hover {
+  color: #fff;
+  background-color: var(--km-link-bg);
+}
+#bangumis .bangumi-tabs button.active {
+  background-color: var(--km-button-light-active);
+}
+#bangumis .bangumi-tabs button.disable {
+  color: #90a4ae;
+}
+#bangumis #bangumi-top .multi {
+  border: 2px solid var(--km-card-bg);
+  border-radius: 15px;
+  text-align: left;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  white-space: nowrap;
+}
+#bangumis #bangumi-top .multi p {
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  border-right: 1px solid var(--font-color);
+}
+#bangumis #bangumi-top .multi .list {
+  overflow: overlay;
+  display: inline-block;
+  white-space: normal;
+  max-height: 75px;
+}
+#bangumis #bangumi-top .multi .list div {
+  display: inline-block;
+  margin: 3px;
+  padding: 1px 5px 1px 5px;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#bangumis #bangumi-top .multi .list div:not(.active):not(.disable):hover {
+  color: #fff;
+  background: var(--km-link-bg);
+}
+#bangumis #bangumi-top .multi .list div.active {
+  background: var(--km-button-light-active);
+}
+#bangumis .card {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 8px;
+  border: 1px rgba(102,204,255,0.6) dashed;
+  text-align: center;
+}
+#bangumis .card[link *= '/']:hover {
+  cursor: url("https://image.kmar.top/mouse/link.cur"), auto;
+}
+[data-theme="light"] #bangumis .card {
+  border-color: #1e90ff;
+}
+#bangumis .card img {
+  display: inline-block;
+  width: 110px;
+  border-radius: 10px;
+  vertical-align: middle;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#bangumis .card img:hover {
+  -webkit-box-shadow: 1px 2px 4px var(--km-general-shadow);
+  box-shadow: 1px 2px 4px var(--km-general-shadow);
+}
+#bangumis .card .info {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  width: calc(100% - 120px);
+}
+#bangumis .card .info .title {
+  font-size: 20px;
+  border-radius: 5px;
+  color: #49b1f5;
+  white-space: normal;
+  word-break: break-word;
+}
+#bangumis .card .info .title:hover {
+  padding: 2px;
+  color: var(--km-globle-font);
+  background-color: var(--km-link-bg);
+}
+#bangumis .card .info .details {
+  display: block;
+  overflow-x: overlay;
+  padding-bottom: 6px;
+}
+#bangumis .card .info .details span {
+  display: inline-block;
+  border-right: 1px solid #2fd8d8;
+  text-align: center;
+  margin: 5px;
+  vertical-align: middle;
+  padding: 5px;
+  padding-top: 0;
+  padding-right: 10px;
+  height: 50px;
+}
+#bangumis .card .info .details span p,
+#bangumis .card .info .details span em {
+  color: #2fd8d8;
+  font-size: 12px;
+  display: block;
+  line-height: 12px;
+}
+#bangumis .card .info .details span em {
+  font-weight: bold;
+}
+#bangumis .card .info .details .total p {
+  padding-top: 12px;
+}
+#bangumis .card .info .details .score {
+  border-right: unset;
+}
+#bangumis .card .tags {
+  overflow-x: overlay;
+}
+#bangumis .card .tags p {
+  display: inline-block;
+  border: 2px #6cf solid;
+  border-radius: 16px;
+  padding: 0 8px;
+  margin-right: 10px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+#bangumis .card .tags p:hover {
+  background: rgba(85,187,238,0.667);
+}
+#bangumis .card:hover {
+  background-color: var(--km-card-bg);
+}
+[data-theme="light"] #bangumis .title {
+  color: #99a9bf !important;
+}
+[data-theme="light"] #bangumis .title:hover {
+  color: #fff !important;
+}
+[data-theme="light"] #bangumis .details p,
+[data-theme="light"] #bangumis .details em {
+  color: #000 !important;
+}
 .search-dialog {
   position: fixed;
   top: 10%;

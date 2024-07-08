@@ -3548,4 +3548,9 @@ function toggleWinbox() {
   };
 }
 
-/* 美化模块 end */
+/* b站追番 end */
+document.addEventListener('DOMContentLoaded', () => {
+  const pushEvent = () => document.dispatchEvent(new Event('kms:loaded'))
+  document.addEventListener('pjax:complete', pushEvent)
+  pushEvent()
+})
