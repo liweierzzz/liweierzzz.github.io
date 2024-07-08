@@ -1,0 +1,185 @@
+:root
+  --km-card-bg #66ccff34
+  --km-link-bg #0084ff
+  --km-button-light-active #66ccff
+  --km-general-shadow #546e7a
+  --km-globle-font black
+
+[data-theme="dark"]
+  --km-card-bg #66ccff10
+  --km-link-bg #0056ac
+  --km-button-light-active #4c4c4cbc
+  --km-globle-font white
+
+#bangumis
+  .bangumi-tabs
+    display block
+    border-radius 15px
+    border 2px solid var(--km-card-bg)
+    text-align center
+
+    & > p
+      display inline-block
+      margin-bottom 0
+      margin-top 0
+
+    button
+      display inline-block
+      color var(--font-color)
+      padding 5px
+      margin 5px
+      border-radius 5px
+      transition all .2s
+
+      &:not(.active):not(.disable):hover
+        color white
+        background-color var(--km-link-bg)
+
+      &.active
+        background-color var(--km-button-light-active)
+
+      &.disable
+        color #90a4ae
+
+  #bangumi-top
+    .multi
+      border 2px solid var(--km-card-bg)
+      border-radius 15px
+      text-align left
+      margin-bottom 5px
+      display flex
+      align-items center
+      white-space nowrap
+
+      p
+        display inline-block
+        margin 5px 10px 5px 10px
+        padding-right 10px
+        font-weight bold
+        border-right 1px solid var(--font-color)
+
+      .list
+        overflow overlay
+        display inline-block
+        white-space normal
+        max-height 75px
+
+        div
+          display inline-block
+          margin 3px
+          padding 1px 5px 1px 5px
+          border-radius 8px
+          transition all .2s
+
+          &:not(.active):not(.disable):hover
+            color white
+            background var(--km-link-bg)
+
+          &.active
+            background var(--km-button-light-active)
+
+  .card
+    display block
+    margin-top 10px
+    margin-bottom 10px
+    padding-left 10px
+    padding-right 10px
+    white-space nowrap
+    transition all .2s
+    border-radius 8px
+    border 1px #66ccff99 dashed
+    text-align center
+
+    &[link *= '/']:hover
+      cursor url('https://image.kmar.top/mouse/link.cur') , auto
+
+    [data-theme="light"] &
+      border-color dodgerblue
+
+    img
+      display inline-block
+      width 110px
+      border-radius 10px
+      vertical-align middle
+      transition all .2s
+
+      &:hover
+        box-shadow 1px 2px 4px var(--km-general-shadow)
+
+    .info
+      display inline-block
+      margin-left 10px
+      vertical-align middle
+      width calc(100% - 120px)
+
+      .title
+        font-size 20px
+        border-radius 5px
+        color #49b1f5
+        white-space normal
+        word-break break-word
+
+        &:hover
+          padding 2px
+          color var(--km-globle-font)
+          background-color var(--km-link-bg)
+
+      .details
+        display block
+        overflow-x overlay
+        padding-bottom 6px
+
+        span
+          display inline-block
+          border-right 1px solid #2fd8d8
+          text-align center
+          margin 5px
+          vertical-align middle
+          padding 5px
+          padding-top 0
+          padding-right 10px
+          height 50px
+
+          p, em
+            color #2fd8d8
+            font-size 12px
+            display block
+            line-height 12px
+
+          em
+            font-weight bold
+
+        .total p
+          padding-top 12px
+
+        .score
+          border-right unset
+
+    .tags
+      overflow-x overlay
+
+      p
+        display inline-block
+        border 2px #66ccff solid
+        border-radius 16px
+        padding 0 8px
+        margin-right 10px
+        transition .2s
+
+        &:hover
+          background #55bbeeaa
+
+    &:hover
+      background-color var(--km-card-bg)
+
+[data-theme="light"]
+  #bangumis
+    .title
+      color #99a9bf !important
+
+      &:hover
+        color white !important
+
+    .details
+      p, em
+        color black !important

@@ -19,5 +19,8 @@ background: url(https://bu.dusays.com/2024/07/07/668a4bc15db61.jpg)
 
 <!-- timeline 2024-7-07-->
 3. 加入了三篇文章,今天下午回学校。
+
+<!-- timeline 2024-7-08-->
+3. 追番功能里面的图片加载不出来 ,不知道啥原因。
 <!-- endtimeline -->
 {% endtimeline %}

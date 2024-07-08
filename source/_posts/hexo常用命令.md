@@ -10,6 +10,7 @@ categories:
 keywords: 命令 经验
 sticky: 2
 swiper_index: 2
+cover: https://bu.dusays.com/2024/07/08/668bea843f09e.jpg
 abbrlink: 982fc2c9
 date: 2024-07-07 16:14:03
 updated:

@@ -307,35 +307,49 @@ butterfly_article_double_row:
 
 
 
+#
+#  追番插件的设置
+#bangumi: # 追番设置
+#  enable: true
+#  source: bili
+#  bgmInfoSource: 'bgmApi'
+#  path:
+#  vmid: 105094115
+#  title: 'Miku的追番列表'
+#  quote: '生命不息，追番不止！ 我永远喜欢三笠!!!'
+#  show: 1
+#  lazyload: true
+#  srcValue: '__image__'
+#  lazyloadAttrName: 'data-src=__image__'
+#  loading:
+#  showMyComment: false
+#  pagination: false
+#  metaColor: '#FFFFFF'
+#  color:
+#  webp:
+#  progress:
+#  extraOrder:
+#  order: latest
+#  proxy:
+#    host: '代理host'
+#    port: '代理端口'
+#  extra_options:
+#    key: value
+#  coverMirror:
 
-  #追番插件的设置
-bangumi: # 追番设置
-  enable: true
-  source: bili
-  bgmInfoSource: 'bgmApi'
-  path:
-  vmid: 105094115
-  title: 'Miku的追番列表'
-  quote: '生命不息，追番不止！ 我永远喜欢三笠!!!'
-  show: 1
-  lazyload: true
-  srcValue: '__image__'
-  lazyloadAttrName: 'data-src=__image__'
-  loading:
-  showMyComment: false
-  pagination: false
-  metaColor: '#FFFFFF'
-  color:
-  webp:
-  progress:
-  extraOrder:
-  order: latest
-  proxy:
-    host: '代理host'
-    port: '代理端口'
-  extra_options:
-    key: value
-  coverMirror:
+bilibili:
+ # 是否启用
+ enable: true
+ # 你的B站 vmid
+ vmid: 105094115
+ # 拓展JSON的文件名（/source/_data/*.json）
+ extra: source/_data/all.json
+ # 锁止追番列表，缺省为false
+ locks:
+  wantLock: false
+  ingLock: false
+  edLock: false
+
 
 
 # footer_beautify

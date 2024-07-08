@@ -10,6 +10,7 @@ categories:
 sticky: 2
 swiper_index: 2
 abbrlink: acf92a4b
+cover: https://bu.dusays.com/2024/07/08/668bea85b3bd5.jpg
 date: 2024-07-03 18:19:03
 updated: 2024-07-04 22:00:00
 aplayer:
