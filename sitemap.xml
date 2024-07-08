@@ -47,6 +47,15 @@
   </url>
   
   <url>
+    <loc>https://liweierzzz.github.io/bilibili/all.json</loc>
+    
+    <lastmod>2024-07-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://liweierzzz.github.io/bilibili/config.json</loc>
     
     <lastmod>2024-07-08</lastmod>
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/bilibili/all.json</loc>
+    <loc>https://liweierzzz.github.io/bilibili/watching/2.json</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://liweierzzz.github.io/bilibili/watching/1.json</loc>
-    
-    <lastmod>2024-07-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/bilibili/watching/2.json</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -259,20 +259,6 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/java/</loc>
-    <lastmod>2024-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://liweierzzz.github.io/tags/Markdown/</loc>
     <lastmod>2024-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -281,6 +267,20 @@
   
   <url>
     <loc>https://liweierzzz.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2024-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/java/</loc>
+    <lastmod>2024-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2024-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
