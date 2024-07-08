@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liweierzzz.github.io/posts/982fc2c9.html</loc>
+    <loc>https://liweierzzz.github.io/personal/about/index.html</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -12,6 +12,24 @@
   
   <url>
     <loc>https://liweierzzz.github.io/posts/63db89e.html</loc>
+    
+    <lastmod>2024-07-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/personal/love/index.html</loc>
+    
+    <lastmod>2024-07-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/posts/982fc2c9.html</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -128,25 +146,7 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/personal/about/index.html</loc>
-    
-    <lastmod>2024-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://liweierzzz.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2024-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/personal/love/index.html</loc>
     
     <lastmod>2024-07-07</lastmod>
     
