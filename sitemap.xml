@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liweierzzz.github.io/site/time/index.html</loc>
+    <loc>https://liweierzzz.github.io/posts/e09b9d02.html</loc>
     
     <lastmod>2024-07-09</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>https://liweierzzz.github.io/box/gallery/index.html</loc>
+    
+    <lastmod>2024-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/site/time/index.html</loc>
     
     <lastmod>2024-07-09</lastmod>
     
@@ -297,6 +306,27 @@
   
   <url>
     <loc>https://liweierzzz.github.io/tags/%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/ai%E6%8F%90%E9%97%AE%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E6%8E%A5%E5%85%A5ai/</loc>
     <lastmod>2024-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
