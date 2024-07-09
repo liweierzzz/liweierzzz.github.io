@@ -11,7 +11,7 @@ sticky: 2
 swiper_index: 2
 abbrlink: 63db89e
 date: 2024-07-08 21:40:03
-categories:
+categories: java
 aplayer:
 ---
 

@@ -276,7 +276,7 @@ magnet:
     - name: 计算机基础
       display_name: mikuの计算机基础笔记
       icon: 🍉
-    - name: Java
+    - name: java
       display_name: mikuのJava基础笔记
       icon: 🍟
     - name: 面试

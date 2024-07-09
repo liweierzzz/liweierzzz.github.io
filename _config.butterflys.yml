@@ -219,6 +219,10 @@ cover:
   - https://bu.dusays.com/2024/07/08/668bea85aa4cb.jpg
   - https://bu.dusays.com/2024/07/08/668bea85d3797.jpg
   - https://bu.dusays.com/2024/07/08/668bea8891f60.jpg
+  - https://bu.dusays.com/2024/07/09/668c90d74d51c.webp
+  - https://bu.dusays.com/2023/09/25/6511980d58e3b.webp
+  - https://bu.dusays.com/2024/07/09/668d53bbd6661.jpg
+  - https://bu.dusays.com/2024/07/09/668d53bc18fda.jpg
     # ...
 
 # A simple 404 page
@@ -609,9 +613,9 @@ background:
   #【可选】PC端夜间模式背景
   darkmode: url(https://bu.dusays.com/2024/07/05/66876c6974956.jpg)
   #【可选】移动端日间默认背景
-  mobileday: var(--mobileday-bg)
+  mobileday: var(https://bu.dusays.com/2024/07/07/668a4bc28b93c.jpg)
   #【可选】移动端夜间模式背景
-  mobilenight: var(--mobilenight-bg)
+  mobilenight: var(https://bu.dusays.com/2024/07/07/668a43eb32d6a.webp)
 
 # Footer Background
 footer_bg: true
@@ -727,14 +731,15 @@ subtitle:
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
-  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+#  source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Welcome to Fomalhaut🥝のTiny Home!🤣🤣🤣"
+    - "Welcome to Miku🥝のTiny Home!🤣🤣🤣"
     - "Hope you have a nice day!🍭🍭🍭"
+
 
 # Loading Animation (加載動畫)
 # preloader: false
@@ -992,11 +997,12 @@ inject:
     - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
     - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script>  # 新年元宝
     - <canvas id="universe"></canvas> # 星空画布
+    - <script data-pjax src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/echarts/5.3.0-rc.1/echarts.min.js"></script> #文章统计
     - <canvas id="snow"></canvas> # 雪花画布
     - <script defer src="/js/fomal.js"></script> # 主模块js
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async data-pjax src="/js/txmap.js"></script> # 腾讯位置API
-    - <div class="aplayer no-destroy" data-id="426890333" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+    - <div class="aplayer no-destroy" data-id="426890333" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> #音乐播放
 
 
 
@@ -1194,27 +1200,4 @@ lantern:
 
 # hexo-butterfly-categories-card
 # see https://akilar.top/posts/a9131002/
-categoryBar:
-  enable: false # 开关
-  priority: 5 #过滤器优先权
-  enable_page: / # 应用页面
-  layout: # 挂载容器类型
-    type: id
-    name: recent-posts
-    index: 0
-  column: odd # odd：3列 | even：4列
-  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
-  message:
-    - descr: 我的面试笔记
-      cover: https://bu.dusays.com/2024/07/05/66878384d5b24.jpg
-    - descr: java学习记录
-      cover: https://bu.dusays.com/2024/07/05/668783862a0d3.jpg
-    - descr: 计算机基础学习
-      cover: https://bu.dusays.com/2024/07/05/668783862c67f.jpg
-    - descr: 个人日记
-      cover: https://bu.dusays.com/2024/07/05/66878387569ce.jpg
-    - descr: 编程经验
-      cover: https://bu.dusays.com/2024/07/05/66878387790b8.jpg
-    - descr: 刷题记录
-      cover: https://bu.dusays.com/2024/07/04/6686acb45eec3.png
-  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
+

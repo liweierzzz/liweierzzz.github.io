@@ -1,10 +1,30 @@
 - class_name: 0.推荐网站🍔
   class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
-  link_list: 
+  link_list:
     - name: Fomalhaut🥝
       link: https://www.fomal.cc/
       avatar: https://www.fomal.cc/assets/avatar.webp
       descr: Future is now 🍭🍭🍭
       siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      descr: 生活明朗，万物可爱
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+
+    - name: hexo
+      link: https://hexo.io/zh-cn/
+      descr: Hexo 是一个快速、简洁且高效的博客框架
+      avatar: https://s21.ax1x.com/2024/07/09/pkfZ9JJ.png
+      siteshot: https://s21.ax1x.com/2024/07/09/pkfZ9JJ.png
+
+    - name: java全栈知识体系
+      link: https://pdai.tech/
+      descr: Java 基础, Java 部分源码, JVM, Spring, Spring Boot, Spring Cloud, 数据库原理, MySQL, ElasticSearch, MongoDB, Docker, k8s, CI&CD, Linux, DevOps, 分布式, 中间件, 开发工具, Git, IDE, 源码阅读，读书笔记, 开源项目...
+      avatar: https://s21.ax1x.com/2024/07/09/pkfZPzR.png
+      siteshot: https://s21.ax1x.com/2024/07/09/pkfZZdO.png
+
+
 
 

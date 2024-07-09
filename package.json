@@ -21,6 +21,7 @@
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-bilibili-bangumi": "^1.10.0",
     "hexo-blog-encrypt": "^3.1.6",
+    "hexo-butterfly-charts": "^1.1.6",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-butterfly-footer-beautify": "^1.0.6",
