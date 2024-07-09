@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liweierzzz.github.io/site/time/index.html</loc>
+    
+    <lastmod>2024-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://liweierzzz.github.io/box/gallery/index.html</loc>
     
     <lastmod>2024-07-09</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://liweierzzz.github.io/posts/982fc2c9.html</loc>
-    
-    <lastmod>2024-07-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/site/time/index.html</loc>
     
     <lastmod>2024-07-08</lastmod>
     
