@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liweierzzz.github.io/posts/a90c23fc.html</loc>
+    <loc>https://liweierzzz.github.io/box/gallery/index.html</loc>
     
     <lastmod>2024-07-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/box/gallery/index.html</loc>
+    <loc>https://liweierzzz.github.io/posts/a90c23fc.html</loc>
     
     <lastmod>2024-07-09</lastmod>
     
@@ -83,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/bilibili/watching/0.json</loc>
-    
-    <lastmod>2024-07-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://liweierzzz.github.io/bilibili/watching/1.json</loc>
     
     <lastmod>2024-07-08</lastmod>
@@ -102,6 +93,15 @@
   
   <url>
     <loc>https://liweierzzz.github.io/bilibili/watching/2.json</loc>
+    
+    <lastmod>2024-07-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/bilibili/watching/0.json</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -268,21 +268,14 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/Markdown/</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://liweierzzz.github.io/tags/java/</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2024-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -296,7 +289,14 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/</loc>
+    <loc>https://liweierzzz.github.io/tags/Markdown/</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2024-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -319,14 +319,14 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://liweierzzz.github.io/categories/java/</loc>
     <lastmod>2024-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/categories/java/</loc>
+    <loc>https://liweierzzz.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2024-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
