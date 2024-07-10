@@ -9,14 +9,16 @@ categories:
 mathjax: true
 ticky: 2
 description: ⭐本篇文章主要介绍了如何接入讯飞ai，还有对ai提问的常用技巧⭐
-cover: 'https://bu.dusays.com/2024/07/09/668d53bbd6661.jpg'
+cover: https://bu.dusays.com/2024/07/09/668d53bbd6661.jpg
 abbrlink: e09b9d02
 date: 2024-07-09 23:07:55
 ---
 
 
 
-参考文章：{% cell 如何使用api接入星火大模型,https://blog.csdn.net/weixin_56649281/article/details/136569427,  %}
+参考文章：
+
+{% link  如何使用api接入星火大模型,https://blog.csdn.net/weixin_56649281/article/details/136569427 , https://s21.ax1x.com/2024/07/09/pkf2su4.png }
 
 ## 1. 接入讯飞ai
 
@@ -26,7 +28,7 @@ date: 2024-07-09 23:07:55
 
 ### 1.1 进入星火：https://xinghuo.xfyun.cn/desk
 
-![f5854f389a394e83a530b2ab10960da0.png (1860×910)](https://img-blog.csdnimg.cn/direct/f5854f389a394e83a530b2ab10960da0.png)
+[![pkf2su4.png](https://s21.ax1x.com/2024/07/09/pkf2su4.png)](https://imgse.com/i/pkf2su4)
 
 ---
 
@@ -34,9 +36,9 @@ date: 2024-07-09 23:07:55
 
 ### 1.2  注册账号,创建应用
 
-![ca7833e65f86475090c3e6a66090d413.png (1860×830)](https://img-blog.csdnimg.cn/direct/ca7833e65f86475090c3e6a66090d413.png)
+[![pkfRnr4.png](https://s21.ax1x.com/2024/07/10/pkfRnr4.png)](https://imgse.com/i/pkfRnr4)
 
-![c87f3ec7fde34611a796fd5f49e4f5dd.png (1860×837)](https://img-blog.csdnimg.cn/direct/c87f3ec7fde34611a796fd5f49e4f5dd.png)
+[![pkfRuqJ.png](https://s21.ax1x.com/2024/07/10/pkfRuqJ.png)](https://imgse.com/i/pkfRuqJ)
 
 ---
 

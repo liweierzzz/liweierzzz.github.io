@@ -156,6 +156,8 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
+  - https://bu.dusays.com/2024/07/10/668e1d360f2b5.jpg
+  - https://bu.dusays.com/2024/07/10/668e1d361737c.jpg
   - https://bu.dusays.com/2024/07/05/66878387569ce.jpg
   - https://bu.dusays.com/2024/07/07/668a43eb3c6d9.webp
   - https://bu.dusays.com/2024/07/07/668a43eb32d6a.webp
@@ -187,22 +189,6 @@ cover:
   - https://bu.dusays.com/2024/07/05/66878384d5b24.jpg
   - https://bu.dusays.com/2024/07/05/66876c6974956.jpg
   - https://bu.dusays.com/2024/07/05/66876b97979d1.webp
-  - https://bu.dusays.com/2024/07/05/6687580337616.jpg
-  - https://bu.dusays.com/2024/07/05/668758032e5cc.jpg
-  - https://bu.dusays.com/2024/07/05/66875802e54ee.jpg
-  - https://bu.dusays.com/2024/07/05/668758030ca43.jpg
-  - https://bu.dusays.com/2024/07/05/66875802e30d1.jpg
-  - https://bu.dusays.com/2024/07/05/66875802eedd0.jpg
-  - https://bu.dusays.com/2024/07/05/6687547eae085.jpg
-  - https://bu.dusays.com/2024/07/04/6686aced6a1a7.png
-  - https://bu.dusays.com/2024/07/04/6686ad1e4cf2a.jpg
-  - https://bu.dusays.com/2024/07/04/6686b5edb6d9e.png
-  - https://bu.dusays.com/2024/07/04/6686acb45eec3.png
-  - https://bu.dusays.com/2024/07/04/6686ac25f2899.jpg
-  - https://bu.dusays.com/2024/07/04/6686a3cbc1499.jpg
-  - https://bu.dusays.com/2024/07/07/668a4bc05991e.jpg
-  - https://bu.dusays.com/2024/07/07/668a4bc0bfb41.jpg
-  - https://bu.dusays.com/2024/07/07/668a4bc0d3bba.jpg
   - https://bu.dusays.com/2024/07/07/668a4bc118c06.jpg
   - https://bu.dusays.com/2024/07/07/668a4bc1330ee.jpg
   - https://bu.dusays.com/2024/07/07/668a4bc14cd72.jpg
@@ -1002,7 +988,7 @@ inject:
     - <script defer src="/js/fomal.js"></script> # 主模块js
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async data-pjax src="/js/txmap.js"></script> # 腾讯位置API
-    - <div class="aplayer no-destroy" data-id="426890333" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> #音乐播放
+    - <div class="aplayer no-destroy" data-id="444889211" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> #音乐播放
 
 
 

@@ -2,8 +2,7 @@
 title: java知识体系(二)
 description: 'java全栈知识体系二,这篇文章主要介绍了java中集合框架的知识点'
 mathjax: true
-cover: 'https://bu.dusays.com/2024/07/09/668c90d74d51c.webp'
-background: 'https://bu.dusays.com/2023/09/25/6511a00fd81e5.webp'
+cover: https://bu.dusays.com/2024/07/09/668c90d74d51c.webp
 tags:
   - java
   - 集合框架
@@ -141,7 +140,7 @@ WeakHashMap 内部是通过弱引用来管理entry的，弱引用的特性对应
 
 
 
-
+{% progress 100 blue 文章结束！  %}
 
 想知道更详细请了解：
 {% link Collection 类关系图,https://pdai.tech/md/java/collection/java-collection-all.html, https://bu.dusays.com/2023/09/25/6511980d58e3b.webp %}

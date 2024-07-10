@@ -100,3 +100,4 @@ hexo --deaft
 ```
 hexo --cwd /path/to/cwd
 ```
+{% progress 100 blue 文章结束！  %}

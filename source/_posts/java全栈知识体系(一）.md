@@ -2,7 +2,7 @@
 title: java知识体系(一)
 description: 'java全栈知识体系,这篇文章主要了解java全栈知识点的问题总结,这一篇主要了解java的基础知识'
 mathjax: true
-cover: 'https://bu.dusays.com/2024/07/08/668bea8891f60.jpg'
+cover: https://bu.dusays.com/2024/07/08/668bea8891f60.jpg
 tags:
   - java
   - 知识点总结
@@ -630,3 +630,4 @@ public class TestCase {
 这就是因为`ServiceLoader.load(Search.class)`在加载某接口时，会去`META-INF/services`下找接口的全限定名文件，再根据里面的内容加载相应的实现类。
 
 这就是spi的思想，接口的实现由provider实现，provider只用在提交的jar包里的`META-INF/services`下根据平台定义的接口新建文件，并添加进相应的实现类内容就好。
+{% progress 100 blue 文章结束！  %}
