@@ -9,7 +9,7 @@ categories:
 mathjax: true
 ticky: 2
 description: ⭐本篇文章主要介绍了如何接入讯飞ai，还有对ai提问的常用技巧⭐
-cover: https://bu.dusays.com/2024/07/09/668d53bbd6661.jpg
+cover: https://bu.dusays.com/2024/07/07/668a4bc28b93c.jpg
 abbrlink: e09b9d02
 date: 2024-07-09 23:07:55
 ---

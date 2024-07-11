@@ -273,6 +273,9 @@ magnet:
     - name: 算法
       display_name: mikuの算法学习笔记
       icon: 🍡
+    - name: 踩坑
+      display_name: mikuの踩坑大全
+      icon: 🍦
     - name: 计算机基础
       display_name: mikuの计算机基础笔记
       icon: 🍉
