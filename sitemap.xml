@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/bilibili/watching/2.json</loc>
+    <loc>https://liweierzzz.github.io/bilibili/watching/1.json</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/bilibili/watching/1.json</loc>
+    <loc>https://liweierzzz.github.io/bilibili/watching/2.json</loc>
     
     <lastmod>2024-07-08</lastmod>
     
@@ -327,14 +327,21 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/Markdown/</loc>
+    <loc>https://liweierzzz.github.io/tags/%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <loc>https://liweierzzz.github.io/tags/ai%E6%8F%90%E9%97%AE%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2024-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E6%8E%A5%E5%85%A5ai/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -362,27 +369,6 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
-    <lastmod>2024-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/tags/ai%E6%8F%90%E9%97%AE%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2024-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liweierzzz.github.io/tags/%E6%8E%A5%E5%85%A5ai/</loc>
-    <lastmod>2024-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://liweierzzz.github.io/tags/%E8%B8%A9%E5%9D%91/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,14 +390,14 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/%E5%BC%82%E6%AD%A5%E5%8C%96/</loc>
+    <loc>https://liweierzzz.github.io/tags/Markdown/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/tags/%E9%9D%A2%E8%AF%95%E6%95%B4%E7%90%86/</loc>
+    <loc>https://liweierzzz.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -426,6 +412,20 @@
   
   <url>
     <loc>https://liweierzzz.github.io/tags/%E9%99%90%E6%B5%81%E5%AE%9E%E7%8E%B0/</loc>
+    <lastmod>2024-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E5%BC%82%E6%AD%A5%E5%8C%96/</loc>
+    <lastmod>2024-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liweierzzz.github.io/tags/%E9%9D%A2%E8%AF%95%E6%95%B4%E7%90%86/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -448,14 +448,14 @@
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://liweierzzz.github.io/categories/%E8%B8%A9%E5%9D%91/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://liweierzzz.github.io/categories/%E8%B8%A9%E5%9D%91/</loc>
+    <loc>https://liweierzzz.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
