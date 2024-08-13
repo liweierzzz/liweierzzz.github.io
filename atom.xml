@@ -6,7 +6,7 @@
   <link href="https://liweierzzz.github.io/atom.xml" rel="self"/>
   
   <link href="https://liweierzzz.github.io/"/>
-  <updated>2024-08-07T06:21:10.928Z</updated>
+  <updated>2024-08-13T12:59:53.786Z</updated>
   <id>https://liweierzzz.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL面试题</title>
+    <link href="https://liweierzzz.github.io/posts/d8c61fec.html"/>
+    <id>https://liweierzzz.github.io/posts/d8c61fec.html</id>
+    <published>2024-08-13T12:02:55.000Z</published>
+    <updated>2024-08-13T12:59:53.786Z</updated>
+    
+    <content type="html"><![CDATA[<a class="button" href='https://www.xiaolincoding.com/' title='小林Coding'><img src=''>小林Coding</a><h1>MySQL面试题</h1><h2 id="SQL基础">SQL基础</h2><h3 id="NOSQL和SQL的区别？">NOSQL和SQL的区别？</h3><p>SQL：关系型数据库，数据逻辑以二维表的形式存在，存储结构化数据。</p><ul><li>ACID：支持原子性，一致性，隔离性，持续性</li><li>水平扩展较难</li></ul><p>NOSQL：非关系数据库，数据库逻辑上提供了不同于二维表的存储方式，例如JSON，哈希表等</p><ul><li>BASE：基本可用，软状态和最终一致性</li><li>非常容易扩展</li></ul><h3 id="数据库三大范式是什么？">数据库三大范式是什么？</h3><ul><li><strong>第一范式（1NF）：要求数据库表的每一列都是不可分割的原子数据项。</strong></li><li><strong>第二范式：确保数据库表中每一列都和主键相关，而不知和主键的某一部分相关</strong></li><li><strong>第三范式：需要确保数据表中的每一列数据都和主键直接相关，而不能间接相关。</strong></li></ul><h3 id="MySQL怎么连表查询">MySQL怎么连表查询</h3><ol><li><p><strong>内连接</strong></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> a.name,b.name form a <span class="keyword">inner</span> <span class="keyword">join</span> b <span class="keyword">on</span> a.id<span class="operator">=</span>b.id</span><br></pre></td></tr></table></figure></li><li><p><strong>左外连接</strong></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> a.name,b.name form a <span class="keyword">left</span> <span class="keyword">join</span> b <span class="keyword">on</span> a.id<span class="operator">=</span>b.id</span><br></pre></td></tr></table></figure></li><li><p><strong>右外连接</strong></p></li></ol><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> a.name,b.name form a <span class="keyword">right</span> <span class="keyword">join</span> b <span class="keyword">on</span> a.id<span class="operator">=</span>b.id</span><br></pre></td></tr></table></figure><ol start="4"><li><strong>全外连接</strong></li></ol><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> a.name,b.name form a <span class="keyword">left</span> <span class="keyword">join</span> b <span class="keyword">on</span> a.id<span class="operator">=</span>b.id</span><br><span class="line"><span class="keyword">union</span></span><br><span class="line"><span class="keyword">select</span> a.name,b.name form a <span class="keyword">right</span> <span class="keyword">join</span> b <span class="keyword">on</span> a.id<span class="operator">=</span>b.id</span><br></pre></td></tr></table></figure><h3 id="MySQL如何避免重复插入数据？">MySQL如何避免重复插入数据？</h3><ul><li><p><strong>使用UNIQUE约束</strong></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> <span class="keyword">user</span> (</span><br><span class="line">    id <span class="type">INT</span> <span class="keyword">primary</span> key auto_increment,</span><br><span class="line">    email <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">unique</span>,</span><br><span class="line">    name <span class="type">varchar</span>(<span class="number">255</span>)</span><br><span class="line">);</span><br></pre></td></tr></table></figure><p>在表的相关列上添加UNIQUE约束，确保每个值在该列中唯一</p></li><li><p><strong>使用INSERT … ON DUPLICATE KEY UPDATE</strong></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> <span class="keyword">user</span> (email,name)</span><br><span class="line"><span class="keyword">values</span>(<span class="string">&#x27;420057557@qq.com&#x27;</span>,<span class="string">&#x27;dtt&#x27;</span>)</span><br><span class="line"><span class="keyword">on</span> duplicate key <span class="keyword">update</span> name<span class="operator">=</span><span class="keyword">values</span>(name)</span><br></pre></td></tr></table></figure><p>这种语句允许在插入记录时处理重复键的情况。如果插入的记录与现有记录冲突，可以选择更新现有记录：</p></li><li><p><strong>使用INSERT IGNORE</strong>： 该语句会在插入记录时忽略那些因重复键而导致的插入错误。例如：</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">insert</span> ignore <span class="keyword">into</span> <span class="keyword">user</span> (email,name)</span><br><span class="line"><span class="keyword">values</span>(<span class="string">&#x27;420057557@qq.com&#x27;</span>,<span class="string">&#x27;dtt&#x27;</span>)</span><br></pre></td></tr></table></figure></li></ul><p><strong>使用场景</strong></p><ul><li>保证全局唯一，用UNIQUE约束</li><li>需要插入和更新结合用使用<code>ON DUPLICATE KEY UPDATE</code>。</li><li>需要快速忽略重复插入使用，<code>INSERT IGNORE</code></li></ul><h3 id="CHAR和VARCHARE有什么区别？">CHAR和VARCHARE有什么区别？</h3><ul><li><strong>CHAR</strong>：固定长度字符串，需指定固定长度，存储时会在末尾补足空格。适合存储固定长度数据。</li><li><strong>VARCHAR</strong>：可变长度字符串，需指定最大长度，适合存储可变数据。</li></ul><h3 id="Text数据类型可以无限大吗？">Text数据类型可以无限大吗？</h3><p>不能有最大长度</p><h3 id="说一下外键约束">说一下外键约束</h3><p>用于维护表与表之间的关系，确保数据的完整性和一致性。</p><p>比如，学生表和课程表，一个学生可以选多么课程，一门课程也可以有多名学生选修，这个适合学生表里面的课程id就可以定义为一个外键，用于维护两张表的关系</p><p>如果没有外键约束，学生表删除数据而课程表却没有删除该课程学生的情况。</p><h3 id="MySQL中的一些基本函数，你知道哪些？">MySQL中的一些基本函数，你知道哪些？</h3><ul><li><p><strong>字符串函数</strong></p><ul><li><p><strong>CONCAT(str1,str2)</strong>：连接多个字符串，返回合并后的结果</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> CONCAT(<span class="string">&#x27;hello&#x27;</span>,</span><br><span class="line"><span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;world !&#x27;</span>) <span class="keyword">AS</span> Greeting;</span><br></pre></td></tr></table></figure></li><li><p>**length(str)：**返回字符串的长度</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> length(<span class="string">&#x27;hello&#x27;</span>) <span class="keyword">as</span> SrtingLength;</span><br></pre></td></tr></table></figure></li><li><p><strong>SUBSTRING(str,pos,len)</strong>：截取指定位置的字符串</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="built_in">SUBSTRING</span>(<span class="string">&#x27;hello world&#x27;</span>,<span class="number">1</span>,<span class="number">5</span>)<span class="keyword">AS</span> SubStr</span><br></pre></td></tr></table></figure></li><li><p><strong>REPLAC（str，form_str，to_str)</strong>：将字符串的某部分替换成另一个字符串</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> REPLACE(<span class="string">&#x27;hello world&#x27;</span>,<span class="string">&#x27;world&#x27;</span>,<span class="string">&#x27;Redis&#x27;</span>) <span class="keyword">as</span> A;</span><br></pre></td></tr></table></figure></li></ul></li><li><p><strong>数值函数</strong></p><ul><li><p><strong>ABS(num)</strong>：返回绝对值</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="built_in">ABS</span>(<span class="number">-10</span>) <span class="keyword">as</span> a;</span><br></pre></td></tr></table></figure></li><li><p><strong>POWER(num,exponent)</strong>：返回数值的幂次方</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> PORER(<span class="number">2</span>,<span class="number">3</span>) <span class="keyword">as</span> a;</span><br></pre></td></tr></table></figure></li></ul></li><li><p><strong>日期和时间函数</strong></p></li><li><p><strong>聚合函数</strong></p></li><li><p>count,sum,avg,max,min</p></li></ul><h2 id="存储引擎">存储引擎</h2><h3 id="执行一条SQL请求的过程是什么？">执行一条SQL请求的过程是什么？</h3><ol><li>**连接器：**建立连接，管理连接，教育用户身份。</li><li>**查询缓存：**查询语句在缓存中是否命中，命中直接返回，否则继续，MySQL8.0 已删除</li><li><strong>解析SQL</strong>：对sql进行词法分析和语法分析构造语法树，方便后续操作。</li><li>**执行SQL：**有三个阶段<ol><li>**预处理阶段：**检测表或字段是否存在，将 <code>select *</code> 中的 <code>*</code> 符号扩展为表上的所有列。</li><li>**优化阶段：**优化器主要负责将 SQL 查询语句的执行方案确定下来。</li><li><strong>执行阶段</strong>：根据执行计划执行 SQL 查询语句，从存储引擎读取记录，返回给客户端；</li></ol></li></ol><hr>]]></content>
+    
+    
+    <summary type="html">主要总结了MySQL相关的面试题</summary>
+    
+    
+    
+    <category term="面试" scheme="https://liweierzzz.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="MYSQL" scheme="https://liweierzzz.github.io/tags/MYSQL/"/>
+    
+    <category term="面试整理" scheme="https://liweierzzz.github.io/tags/%E9%9D%A2%E8%AF%95%E6%95%B4%E7%90%86/"/>
+    
+    <category term="项目经验" scheme="https://liweierzzz.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://liweierzzz.github.io/posts/0.html"/>
+    <id>https://liweierzzz.github.io/posts/0.html</id>
+    <published>2024-08-07T06:53:57.667Z</published>
+    <updated>2024-08-07T11:31:02.831Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="为什么要使用并发编程">为什么要使用并发编程</h3><ul><li>提高多核cpu使用率-充分发挥cpu的计算能力</li><li>方便业务拆分-提高性能 比如上传视频，这可以把耗时较长的任务创建一个线程来执行，主线程直接返回。</li></ul><h3 id="并发编程有什么缺点">并发编程有什么缺点</h3><ul><li>上下文切换导致的性能开销问题</li><li>容易出现死锁问题</li><li>线程安全问题-&gt;线程不安全情况下可能导致共享资源执行出错</li></ul><h3 id="并发编程三个必要因素是什么？">并发编程三个必要因素是什么？</h3><ul><li><p>原子性：某个线程正在做某个具体业务时，中间不可以被分割，需要具体完成，要么同时成功，要么同时失败，保证指令不会受到线程上下文切换的影响</p></li><li><p>有序性：在本线程内观察，所有操作都是有序的；在一个线程观察另一个线程，所有操作都是无序的，无序是因为发生了指令重排序。</p></li><li><p>可见性：当多个线程访问同一个变量时，一个线程修改了这个变量的值，其他线程能够立即看得到修改的值。</p><blockquote><p>导致可见性问题的原因是缓存 JIT会对经常使用的变量做优化，会把这个共享变量的值存入高速缓存区，之后一个线程修改了值，但其它线程读取到的还是缓存中的值。但是 final 修饰的变量是<strong>不可变</strong>的，就算有缓存，也不会存在不可见的问题</p></blockquote></li></ul><h3 id="在-Java-程序中怎么保证多线程的运行安全？">在 Java 程序中怎么保证多线程的运行安全？</h3><p>导致原因：</p><ul><li>缓存导致的可见性问题</li><li>线程切换带来的原子性问题</li><li>编译优化带来的有序性问题</li></ul><p>解决办法：</p><ul><li>JDK Atomic开头的原子类、synchronized、LOCK，可以解决原子性问题</li><li>synchronized、volatile、LOCK，可以解决可见性问题</li><li>Happens-Before 规则可以解决有序性问题</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;为什么要使用并发编程&quot;&gt;为什么要使用并发编程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提高多核cpu使用率-充分发挥cpu的计算能力&lt;/li&gt;
+&lt;li&gt;方便业务拆分-提高性能 比如上传视频，这可以把耗时较长的任务创建一个线程来执行，主线程直接返回。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>JUC学习笔记</title>
@@ -35,9 +85,9 @@
     
     <category term="java" scheme="https://liweierzzz.github.io/tags/java/"/>
     
-    <category term="JUC模式" scheme="https://liweierzzz.github.io/tags/JUC%E6%A8%A1%E5%BC%8F/"/>
-    
     <category term="学习笔记" scheme="https://liweierzzz.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="JUC模式" scheme="https://liweierzzz.github.io/tags/JUC%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
@@ -60,9 +110,9 @@
     
     <category term="java" scheme="https://liweierzzz.github.io/tags/java/"/>
     
-    <category term="学习笔记" scheme="https://liweierzzz.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="设计模式" scheme="https://liweierzzz.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="学习笔记" scheme="https://liweierzzz.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -108,11 +158,11 @@
     <category term="编程经验" scheme="https://liweierzzz.github.io/categories/%E7%BC%96%E7%A8%8B%E7%BB%8F%E9%AA%8C/"/>
     
     
+    <category term="项目经验" scheme="https://liweierzzz.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C/"/>
+    
     <category term="RabbitMq" scheme="https://liweierzzz.github.io/tags/RabbitMq/"/>
     
     <category term="死信队列" scheme="https://liweierzzz.github.io/tags/%E6%AD%BB%E4%BF%A1%E9%98%9F%E5%88%97/"/>
-    
-    <category term="项目经验" scheme="https://liweierzzz.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
